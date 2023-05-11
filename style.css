@@ -1,0 +1,276 @@
+/* HEADER SECTION */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    background-color: #EFD7BD;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+  }
+  
+  nav li a:hover {
+    background-color: none;
+    border-bottom: 3px solid #875A3D;
+  }
+  
+  /* BODY SECTION */
+  body {
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFD7BD;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 75px;
+    position: relative;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #875A3D;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #875A3D;
+    margin-bottom: 45px;
+  }
+
+button:hover {
+    background-color: #875A3D;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+  .centered-image {
+    display: block;
+    margin: -5px auto 0;
+    max-width: 50%;
+    height: 150px;
+  }
+  
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+  
+  h4 {
+    font-size: 19px;
+    font-weight: normal;
+  }
+  
+  h5 {
+    width: 600px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  
+ /* SKILLS SECTION */
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: calc(33.33% - 10px);
+  }
+  
+.skill:last-child {
+    margin-right: 0;
+  }
+  
+.skill img {
+    height: 80px;
+    margin-bottom: 10px;
+    width: 80px;
+  }
+  
+.skill p {
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}  
+
+/* TOOLS */
+.tools .tool {
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  height: 75px;
+  width: 75px;
+}
+
+#tools {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.tools .tool img {
+  display: block;
+  margin: 0 auto;
+  height: 95px;
+  width: 95px;
+}
+
+
+/* MY WORK SECTION */
+#my-work {
+  max-width: 900px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  #my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.case-study {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.case-study img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.case-study-text {
+  flex: 1;
+}
+
+.case-study-text h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.case-study-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+/* FOOTER SECTION */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #EFD7BD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: none;
+    color: black;
+    border-bottom: 3px solid #875A3D;
+  }
+  
+  .footer-logo {
+    margin-right: 1rem;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
